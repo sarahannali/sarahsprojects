@@ -1,0 +1,43 @@
+.bgrImg
+{
+  width: 100%;
+  max-height: 70vh;
+  max-width: 52vh;
+  position: absolute;
+}
+
+.star1
+{
+  animation: blinker 2s linear infinite;
+}
+
+.star2
+{
+  animation: blinker 10s linear infinite;
+}
+
+.star3
+{
+  animation: blinker 4s linear infinite;
+}
+
+.star4
+{
+  animation: blinker 1s linear infinite;
+}
+
+.star5
+{
+  animation: blinker 8s linear infinite;
+}
+
+.star6
+{
+  animation: blinker 5s linear infinite;
+}
+
+@keyframes blinker {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
