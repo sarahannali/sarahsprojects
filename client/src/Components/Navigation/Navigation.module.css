@@ -1,7 +1,11 @@
-.tag
+.Navigation
 {
-  position: absolute;
-  height: 10vh;
-  margin-top: 0;
-  margin-left: 5vw;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.hamburger
+{
+  outline: none;
 }

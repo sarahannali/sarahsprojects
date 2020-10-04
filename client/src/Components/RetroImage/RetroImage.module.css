@@ -1,9 +1,13 @@
 .bgrImg
 {
-  width: 100%;
-  max-height: 70vh;
-  max-width: 52vh;
+  max-height: 80vh;
+  max-width: 60vh;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
   position: absolute;
+  top: 40%;
+  left: 50%;
+  z-index: 3;
 }
 
 .star1
