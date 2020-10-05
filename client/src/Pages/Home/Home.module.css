@@ -1,0 +1,66 @@
+.Home
+{
+  height: 100vh;
+  width: 100vw;
+  background-color: #292929;
+}
+
+.Home h1
+{
+  width: 100%;
+  text-align: center;
+  margin-top: 15vh;
+  font-size: 100px;
+  color: #FFF4D9;
+  font-family: 'Anton', sans-serif;
+}
+
+.links
+{
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+}
+
+.homeButton {
+  border: 1px solid;
+  color: #FFF4D9;
+  background-color: transparent;
+  overflow: hidden;
+  position: relative;
+  width: 20vw;
+  height: 5vh;
+  margin-bottom: 5vh;
+  transition: 1s ease;
+}
+
+.homeButton:hover{
+  border: none;
+  color: #292929;
+  background-color: #FFF4D9;
+}
+
+@media only screen and (max-width: 666px)
+{
+  .Home h1
+  {
+    margin-top: 18vh;
+    font-size: 75px;
+  }
+}
+
+@media only screen and (max-width: 576px)
+{
+  .links
+  {
+    display: inline-block;
+  }
+
+  .homeButton
+  {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
