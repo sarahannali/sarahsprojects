@@ -59,8 +59,6 @@ function Links(props) {
                         <p></p>
                         │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <a href={JSpdf} target="_blank" rel="noopener noreferrer" className={classes.txt}>javascript.pdf</a>
                         <p></p>
-                        │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <span className={classes.txt}>node_js.pdf</span>
-                        <p></p>
                         <p className={classes.finalSpace}></p>
                         <span>8 directories, 12 files</span>
 
