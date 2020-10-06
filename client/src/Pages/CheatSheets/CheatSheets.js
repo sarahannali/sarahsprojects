@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './CheatSheets.module.css';
 import HTTPpdf from '../../Documents/HTTP.pdf';
+import JSpdf from '../../Documents/JS.pdf';
 
 function Links(props) {
     return (
@@ -56,7 +57,7 @@ function Links(props) {
                         <p></p>
                         │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <span className={classes.folder}>javascript</span>
                         <p></p>
-                        │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <span className={classes.txt}>javascript.pdf</span>
+                        │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <a href={JSpdf} target="_blank" rel="noopener noreferrer" className={classes.txt}>javascript.pdf</a>
                         <p></p>
                         │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <span className={classes.txt}>node_js.pdf</span>
                         <p></p>
